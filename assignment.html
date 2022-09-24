@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASSIGNMENT 2</title>
+    <link rel="stylesheet" href="assignment.css">
+</head>
+<body>
+    <div id="div1">
+        NAME: AYUSH RAJ<br><br>
+        REGISTARTION NUMBER: 202000159<br><br>
+        </br></br>    
+    </div>
+    <div id="div2">
+        <img onmouseover="largePic(this)" onmouseout="nomPic(this)" src="apj_abdul_kalam.jpg" width="350" height="400px" ><br>
+	    <h2 onmouseover="largeText(this)" onmouseout="nomText(this)">DR. A. P. J. Abdul Kalam </h2><br>
+    </div>
+    <div id="div3">
+        OFFICIAL EMAIL ID:
+        <a href="ayush_202000159@smit.smu.edu.in">ayush_202000159@smit.smu.edu.in</a>
+    </div>
+    <script>
+        function largePic(x){
+            x.style.width = "450px";
+            x.style.height = "500px";
+        }
+        function nomPic(x){
+            x.style.width = "320px";
+            x.style.height = "180px";
+        }
+        function largeText(x){
+            x.style.fontSize = "40px";
+        }
+        function nomText(x){
+            x.style.fontSize = "20px";
+        }
+    </script>
+</body>
+</html>
